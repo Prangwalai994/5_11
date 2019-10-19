@@ -17,7 +17,6 @@ namespace Testing_the_Interaction_5_11.Mocking
 
         public int PlaceOrder(Order order)
         {
-            return 0;  
 
             var orderId = _storage.Store(order);
 
